@@ -1,4 +1,6 @@
 # cypress-plugin
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbasset%2Fcypress-plugin.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbasset%2Fcypress-plugin?ref=badge_shield)
+
 
 > Cypress plugin for sending snapshots to basset
 
@@ -49,3 +51,6 @@ npm install @getbasset/cypress-plugin
    BASSET_URL = 'url_to_basset' BASSET_TOKEN = 'projectToken' BASSET_ASSETS = '' npx cypress open
     ```
    You can also set `BASSET_TMP_DIR` to the directory you want to store snapshots until the build is completed
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbasset%2Fcypress-plugin.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbasset%2Fcypress-plugin?ref=badge_large)
